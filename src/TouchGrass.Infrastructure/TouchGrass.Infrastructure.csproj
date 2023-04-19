@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TouchGrass.Application\TouchGrass.Application.csproj" />
+  </ItemGroup>
+
 </Project>
