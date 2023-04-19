@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TouchGrass.Application", "src\TouchGrass.Application\TouchGrass.Application.csproj", "{688AEBE1-42CA-4DF1-95E7-16305B1C84DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TouchGrass.Domain", "src\TouchGrass.Domain\TouchGrass.Domain.csproj", "{47CDC90B-8A63-45B6-BFEB-B60B7B15D2DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TouchGrass.Infrastructure", "src\TouchGrass.Infrastructure\TouchGrass.Infrastructure.csproj", "{099A234F-03B1-4F98-9C75-60C59C4FD06D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TouchGrass.Api", "src\TouchGrass.Api\TouchGrass.Api.csproj", "{11182D34-98FA-4188-89DD-F5DC408CDF13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{688AEBE1-42CA-4DF1-95E7-16305B1C84DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688AEBE1-42CA-4DF1-95E7-16305B1C84DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688AEBE1-42CA-4DF1-95E7-16305B1C84DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688AEBE1-42CA-4DF1-95E7-16305B1C84DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47CDC90B-8A63-45B6-BFEB-B60B7B15D2DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47CDC90B-8A63-45B6-BFEB-B60B7B15D2DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47CDC90B-8A63-45B6-BFEB-B60B7B15D2DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47CDC90B-8A63-45B6-BFEB-B60B7B15D2DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{099A234F-03B1-4F98-9C75-60C59C4FD06D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{099A234F-03B1-4F98-9C75-60C59C4FD06D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{099A234F-03B1-4F98-9C75-60C59C4FD06D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{099A234F-03B1-4F98-9C75-60C59C4FD06D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11182D34-98FA-4188-89DD-F5DC408CDF13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11182D34-98FA-4188-89DD-F5DC408CDF13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11182D34-98FA-4188-89DD-F5DC408CDF13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11182D34-98FA-4188-89DD-F5DC408CDF13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C86F7756-56F9-46BF-B0BD-326FD873C3FA}
+	EndGlobalSection
+EndGlobal
